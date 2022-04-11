@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "iutvx5VkcqBLdQjElMq/vlWc3ULfFMg/i0LqddhBoZaUG2OzZs/F7R+getP9x8OOkFYfIETjqX3YLJJ03ezQuA==",
+  "dgSpecHash": "sLfKHdlw0xXuhIsvERJSF8MIspSgYD37d4UhzmnJf1nDWA/O1TTcZTtpId4ZeeXb0VKmgOIZmaup9VV6Svahpg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hobiton\\RiderProjects\\SMS API\\SMS API\\SMS API.csproj",
+  "projectFilePath": "/home/dalitso/Documents/Projects/SMS-API/SMS API/SMS API.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Hobiton\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\Hobiton\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\Hobiton\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "C:\\Users\\Hobiton\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "C:\\Users\\Hobiton\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\Hobiton\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "/home/dalitso/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/dalitso/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/dalitso/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/home/dalitso/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/home/dalitso/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/home/dalitso/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
   ],
   "logs": []
 }
