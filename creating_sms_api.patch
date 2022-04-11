@@ -1,0 +1,1037 @@
+Index: .idea/.idea.SMS API/.idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.SMS API/.idea/.gitignore b/.idea/.idea.SMS API/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
++++ b/.idea/.idea.SMS API/.idea/.gitignore	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
+@@ -0,0 +1,13 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Rider ignored files
++/modules.xml
++/.idea.SMS API.iml
++/contentModel.xml
++/projectSettingsUpdater.xml
++# Editor-based HTTP Client requests
++/httpRequests/
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
+Index: .idea/.idea.SMS API/.idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.SMS API/.idea/encodings.xml b/.idea/.idea.SMS API/.idea/encodings.xml
+new file mode 100644
+--- /dev/null	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
++++ b/.idea/.idea.SMS API/.idea/encodings.xml	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding" addBOMForNewFiles="with BOM under Windows, with no BOM otherwise" />
++</project>
+\ No newline at end of file
+Index: .idea/.idea.SMS API/.idea/indexLayout.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.SMS API/.idea/indexLayout.xml b/.idea/.idea.SMS API/.idea/indexLayout.xml
+new file mode 100644
+--- /dev/null	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
++++ b/.idea/.idea.SMS API/.idea/indexLayout.xml	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="UserContentModel">
++    <attachedFolders />
++    <explicitIncludes />
++    <explicitExcludes />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.idea.SMS API/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.SMS API/.idea/misc.xml b/.idea/.idea.SMS API/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
++++ b/.idea/.idea.SMS API/.idea/misc.xml	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="com.jetbrains.rider.android.RiderAndroidMiscFileCreationComponent">
++    <option name="ENSURE_MISC_FILE_EXISTS" value="true" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.idea.SMS API/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.SMS API/.idea/vcs.xml b/.idea/.idea.SMS API/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
++++ b/.idea/.idea.SMS API/.idea/vcs.xml	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: SMS API.sln
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SMS API.sln b/SMS API.sln
+new file mode 100644
+--- /dev/null	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
++++ b/SMS API.sln	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
+@@ -0,0 +1,16 @@
++
++Microsoft Visual Studio Solution File, Format Version 12.00
++Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS API", "SMS API\SMS API.csproj", "{62B2D314-2DBC-4735-9894-4AEAC3A0CE76}"
++EndProject
++Global
++	GlobalSection(SolutionConfigurationPlatforms) = preSolution
++		Debug|Any CPU = Debug|Any CPU
++		Release|Any CPU = Release|Any CPU
++	EndGlobalSection
++	GlobalSection(ProjectConfigurationPlatforms) = postSolution
++		{62B2D314-2DBC-4735-9894-4AEAC3A0CE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
++		{62B2D314-2DBC-4735-9894-4AEAC3A0CE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
++		{62B2D314-2DBC-4735-9894-4AEAC3A0CE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
++		{62B2D314-2DBC-4735-9894-4AEAC3A0CE76}.Release|Any CPU.Build.0 = Release|Any CPU
++	EndGlobalSection
++EndGlobal
+Index: SMS API/Program.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SMS API/Program.cs b/SMS API/Program.cs
+new file mode 100644
+--- /dev/null	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
++++ b/SMS API/Program.cs	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
+@@ -0,0 +1,25 @@
++var builder = WebApplication.CreateBuilder(args);
++
++// Add services to the container.
++
++builder.Services.AddControllers();
++// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
++builder.Services.AddEndpointsApiExplorer();
++builder.Services.AddSwaggerGen();
++
++var app = builder.Build();
++
++// Configure the HTTP request pipeline.
++if (app.Environment.IsDevelopment())
++{
++    app.UseSwagger();
++    app.UseSwaggerUI();
++}
++
++app.UseHttpsRedirection();
++
++app.UseAuthorization();
++
++app.MapControllers();
++
++app.Run();
+\ No newline at end of file
+Index: SMS API/Properties/launchSettings.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SMS API/Properties/launchSettings.json b/SMS API/Properties/launchSettings.json
+new file mode 100644
+--- /dev/null	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
++++ b/SMS API/Properties/launchSettings.json	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
+@@ -0,0 +1,31 @@
++{
++  "$schema": "https://json.schemastore.org/launchsettings.json",
++  "iisSettings": {
++    "windowsAuthentication": false,
++    "anonymousAuthentication": true,
++    "iisExpress": {
++      "applicationUrl": "http://localhost:12573",
++      "sslPort": 44317
++    }
++  },
++  "profiles": {
++    "SMS_API": {
++      "commandName": "Project",
++      "dotnetRunMessages": true,
++      "launchBrowser": true,
++      "launchUrl": "swagger",
++      "applicationUrl": "https://localhost:7053;http://localhost:5053",
++      "environmentVariables": {
++        "ASPNETCORE_ENVIRONMENT": "Development"
++      }
++    },
++    "IIS Express": {
++      "commandName": "IISExpress",
++      "launchBrowser": true,
++      "launchUrl": "swagger",
++      "environmentVariables": {
++        "ASPNETCORE_ENVIRONMENT": "Development"
++      }
++    }
++  }
++}
+Index: SMS API/SMS API.csproj
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SMS API/SMS API.csproj b/SMS API/SMS API.csproj
+new file mode 100644
+--- /dev/null	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
++++ b/SMS API/SMS API.csproj	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
+@@ -0,0 +1,19 @@
++<Project Sdk="Microsoft.NET.Sdk.Web">
++
++    <PropertyGroup>
++        <TargetFramework>net6.0</TargetFramework>
++        <Nullable>enable</Nullable>
++        <ImplicitUsings>enable</ImplicitUsings>
++        <RootNamespace>SMS_API</RootNamespace>
++    </PropertyGroup>
++
++    <ItemGroup>
++        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
++    </ItemGroup>
++
++    <ItemGroup>
++      <Folder Include="Controllers" />
++      <Folder Include="Services" />
++    </ItemGroup>
++
++</Project>
+Index: SMS API/appsettings.Development.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SMS API/appsettings.Development.json b/SMS API/appsettings.Development.json
+new file mode 100644
+--- /dev/null	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
++++ b/SMS API/appsettings.Development.json	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
+@@ -0,0 +1,8 @@
++{
++  "Logging": {
++    "LogLevel": {
++      "Default": "Information",
++      "Microsoft.AspNetCore": "Warning"
++    }
++  }
++}
+Index: SMS API/appsettings.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SMS API/appsettings.json b/SMS API/appsettings.json
+new file mode 100644
+--- /dev/null	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
++++ b/SMS API/appsettings.json	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
+@@ -0,0 +1,9 @@
++{
++  "Logging": {
++    "LogLevel": {
++      "Default": "Information",
++      "Microsoft.AspNetCore": "Warning"
++    }
++  },
++  "AllowedHosts": "*"
++}
+Index: SMS API/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SMS API/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs b/SMS API/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+new file mode 100644
+--- /dev/null	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
++++ b/SMS API/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
+@@ -0,0 +1,4 @@
++// <autogenerated />
++using System;
++using System.Reflection;
++[assembly: global::System.Runtime.Versioning.TargetFrameworkAttribute(".NETCoreApp,Version=v6.0", FrameworkDisplayName = "")]
+Index: SMS API/obj/Debug/net6.0/SMS API.AssemblyInfo.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SMS API/obj/Debug/net6.0/SMS API.AssemblyInfo.cs b/SMS API/obj/Debug/net6.0/SMS API.AssemblyInfo.cs
+new file mode 100644
+--- /dev/null	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
++++ b/SMS API/obj/Debug/net6.0/SMS API.AssemblyInfo.cs	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
+@@ -0,0 +1,22 @@
++//------------------------------------------------------------------------------
++// <auto-generated>
++//     This code was generated by a tool.
++//
++//     Changes to this file may cause incorrect behavior and will be lost if
++//     the code is regenerated.
++// </auto-generated>
++//------------------------------------------------------------------------------
++
++using System;
++using System.Reflection;
++
++[assembly: System.Reflection.AssemblyCompanyAttribute("SMS API")]
++[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
++[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
++[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
++[assembly: System.Reflection.AssemblyProductAttribute("SMS API")]
++[assembly: System.Reflection.AssemblyTitleAttribute("SMS API")]
++[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
++
++// Generated by the MSBuild WriteCodeFragment class.
++
+Index: SMS API/obj/Debug/net6.0/SMS API.GeneratedMSBuildEditorConfig.editorconfig
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SMS API/obj/Debug/net6.0/SMS API.GeneratedMSBuildEditorConfig.editorconfig b/SMS API/obj/Debug/net6.0/SMS API.GeneratedMSBuildEditorConfig.editorconfig
+new file mode 100644
+--- /dev/null	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
++++ b/SMS API/obj/Debug/net6.0/SMS API.GeneratedMSBuildEditorConfig.editorconfig	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
+@@ -0,0 +1,16 @@
++is_global = true
++build_property.TargetFramework = net6.0
++build_property.TargetPlatformMinVersion = 
++build_property.UsingMicrosoftNETSdkWeb = true
++build_property.ProjectTypeGuids = 
++build_property.InvariantGlobalization = 
++build_property.PlatformNeutralAssembly = 
++build_property._SupportedPlatformList = Linux,macOS,Windows
++build_property.RootNamespace = SMS_API
++build_property.RootNamespace = SMS_API
++build_property.ProjectDir = C:\Users\Hobiton\RiderProjects\SMS API\SMS API\
++build_property.RazorLangVersion = 6.0
++build_property.SupportLocalizedComponentNames = 
++build_property.GenerateRazorMetadataSourceChecksumAttributes = 
++build_property.MSBuildProjectDirectory = C:\Users\Hobiton\RiderProjects\SMS API\SMS API
++build_property._RazorSourceGeneratorDebug = 
+Index: SMS API/obj/Debug/net6.0/SMS API.GlobalUsings.g.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SMS API/obj/Debug/net6.0/SMS API.GlobalUsings.g.cs b/SMS API/obj/Debug/net6.0/SMS API.GlobalUsings.g.cs
+new file mode 100644
+--- /dev/null	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
++++ b/SMS API/obj/Debug/net6.0/SMS API.GlobalUsings.g.cs	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
+@@ -0,0 +1,17 @@
++// <auto-generated/>
++global using global::Microsoft.AspNetCore.Builder;
++global using global::Microsoft.AspNetCore.Hosting;
++global using global::Microsoft.AspNetCore.Http;
++global using global::Microsoft.AspNetCore.Routing;
++global using global::Microsoft.Extensions.Configuration;
++global using global::Microsoft.Extensions.DependencyInjection;
++global using global::Microsoft.Extensions.Hosting;
++global using global::Microsoft.Extensions.Logging;
++global using global::System;
++global using global::System.Collections.Generic;
++global using global::System.IO;
++global using global::System.Linq;
++global using global::System.Net.Http;
++global using global::System.Net.Http.Json;
++global using global::System.Threading;
++global using global::System.Threading.Tasks;
+Index: SMS API/obj/SMS API.csproj.nuget.dgspec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SMS API/obj/SMS API.csproj.nuget.dgspec.json b/SMS API/obj/SMS API.csproj.nuget.dgspec.json
+new file mode 100644
+--- /dev/null	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
++++ b/SMS API/obj/SMS API.csproj.nuget.dgspec.json	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
+@@ -0,0 +1,75 @@
++{
++  "format": 1,
++  "restore": {
++    "C:\\Users\\Hobiton\\RiderProjects\\SMS API\\SMS API\\SMS API.csproj": {}
++  },
++  "projects": {
++    "C:\\Users\\Hobiton\\RiderProjects\\SMS API\\SMS API\\SMS API.csproj": {
++      "version": "1.0.0",
++      "restore": {
++        "projectUniqueName": "C:\\Users\\Hobiton\\RiderProjects\\SMS API\\SMS API\\SMS API.csproj",
++        "projectName": "SMS API",
++        "projectPath": "C:\\Users\\Hobiton\\RiderProjects\\SMS API\\SMS API\\SMS API.csproj",
++        "packagesPath": "C:\\Users\\Hobiton\\.nuget\\packages\\",
++        "outputPath": "C:\\Users\\Hobiton\\RiderProjects\\SMS API\\SMS API\\obj\\",
++        "projectStyle": "PackageReference",
++        "fallbackFolders": [
++          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
++        ],
++        "configFilePaths": [
++          "C:\\Users\\Hobiton\\AppData\\Roaming\\NuGet\\NuGet.Config",
++          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
++          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
++        ],
++        "originalTargetFrameworks": [
++          "net6.0"
++        ],
++        "sources": {
++          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
++          "https://api.nuget.org/v3/index.json": {}
++        },
++        "frameworks": {
++          "net6.0": {
++            "targetAlias": "net6.0",
++            "projectReferences": {}
++          }
++        },
++        "warningProperties": {
++          "warnAsError": [
++            "NU1605"
++          ]
++        }
++      },
++      "frameworks": {
++        "net6.0": {
++          "targetAlias": "net6.0",
++          "dependencies": {
++            "Swashbuckle.AspNetCore": {
++              "target": "Package",
++              "version": "[6.2.3, )"
++            }
++          },
++          "imports": [
++            "net461",
++            "net462",
++            "net47",
++            "net471",
++            "net472",
++            "net48"
++          ],
++          "assetTargetFallback": true,
++          "warn": true,
++          "frameworkReferences": {
++            "Microsoft.AspNetCore.App": {
++              "privateAssets": "none"
++            },
++            "Microsoft.NETCore.App": {
++              "privateAssets": "all"
++            }
++          },
++          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
++        }
++      }
++    }
++  }
++}
+\ No newline at end of file
+Index: SMS API/obj/SMS API.csproj.nuget.g.props
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SMS API/obj/SMS API.csproj.nuget.g.props b/SMS API/obj/SMS API.csproj.nuget.g.props
+new file mode 100644
+--- /dev/null	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
++++ b/SMS API/obj/SMS API.csproj.nuget.g.props	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
+@@ -0,0 +1,23 @@
++<?xml version="1.0" encoding="utf-8" standalone="no"?>
++<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
++  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
++    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
++    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
++    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
++    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
++    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Hobiton\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
++    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
++    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.0.0</NuGetToolVersion>
++  </PropertyGroup>
++  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
++    <SourceRoot Include="C:\Users\Hobiton\.nuget\packages\" />
++    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
++  </ItemGroup>
++  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
++    <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server\3.0.0\build\Microsoft.Extensions.ApiDescription.Server.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server\3.0.0\build\Microsoft.Extensions.ApiDescription.Server.props')" />
++    <Import Project="$(NuGetPackageRoot)swashbuckle.aspnetcore\6.2.3\build\Swashbuckle.AspNetCore.props" Condition="Exists('$(NuGetPackageRoot)swashbuckle.aspnetcore\6.2.3\build\Swashbuckle.AspNetCore.props')" />
++  </ImportGroup>
++  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
++    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\Hobiton\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0</PkgMicrosoft_Extensions_ApiDescription_Server>
++  </PropertyGroup>
++</Project>
+\ No newline at end of file
+Index: SMS API/obj/SMS API.csproj.nuget.g.targets
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SMS API/obj/SMS API.csproj.nuget.g.targets b/SMS API/obj/SMS API.csproj.nuget.g.targets
+new file mode 100644
+--- /dev/null	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
++++ b/SMS API/obj/SMS API.csproj.nuget.g.targets	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="utf-8" standalone="no"?>
++<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
++  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
++    <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server\3.0.0\build\Microsoft.Extensions.ApiDescription.Server.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server\3.0.0\build\Microsoft.Extensions.ApiDescription.Server.targets')" />
++  </ImportGroup>
++</Project>
+\ No newline at end of file
+Index: SMS API/obj/project.assets.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SMS API/obj/project.assets.json b/SMS API/obj/project.assets.json
+new file mode 100644
+--- /dev/null	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
++++ b/SMS API/obj/project.assets.json	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
+@@ -0,0 +1,281 @@
++{
++  "version": 3,
++  "targets": {
++    "net6.0": {
++      "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
++        "type": "package",
++        "build": {
++          "build/Microsoft.Extensions.ApiDescription.Server.props": {},
++          "build/Microsoft.Extensions.ApiDescription.Server.targets": {}
++        },
++        "buildMultiTargeting": {
++          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props": {},
++          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
++        }
++      },
++      "Microsoft.OpenApi/1.2.3": {
++        "type": "package",
++        "compile": {
++          "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
++        },
++        "runtime": {
++          "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
++        }
++      },
++      "Swashbuckle.AspNetCore/6.2.3": {
++        "type": "package",
++        "dependencies": {
++          "Microsoft.Extensions.ApiDescription.Server": "3.0.0",
++          "Swashbuckle.AspNetCore.Swagger": "6.2.3",
++          "Swashbuckle.AspNetCore.SwaggerGen": "6.2.3",
++          "Swashbuckle.AspNetCore.SwaggerUI": "6.2.3"
++        },
++        "build": {
++          "build/Swashbuckle.AspNetCore.props": {}
++        }
++      },
++      "Swashbuckle.AspNetCore.Swagger/6.2.3": {
++        "type": "package",
++        "dependencies": {
++          "Microsoft.OpenApi": "1.2.3"
++        },
++        "compile": {
++          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {}
++        },
++        "runtime": {
++          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {}
++        },
++        "frameworkReferences": [
++          "Microsoft.AspNetCore.App"
++        ]
++      },
++      "Swashbuckle.AspNetCore.SwaggerGen/6.2.3": {
++        "type": "package",
++        "dependencies": {
++          "Swashbuckle.AspNetCore.Swagger": "6.2.3"
++        },
++        "compile": {
++          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
++        },
++        "runtime": {
++          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
++        }
++      },
++      "Swashbuckle.AspNetCore.SwaggerUI/6.2.3": {
++        "type": "package",
++        "compile": {
++          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
++        },
++        "runtime": {
++          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
++        },
++        "frameworkReferences": [
++          "Microsoft.AspNetCore.App"
++        ]
++      }
++    }
++  },
++  "libraries": {
++    "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
++      "sha512": "LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
++      "type": "package",
++      "path": "microsoft.extensions.apidescription.server/3.0.0",
++      "hasTools": true,
++      "files": [
++        ".nupkg.metadata",
++        ".signature.p7s",
++        "build/Microsoft.Extensions.ApiDescription.Server.props",
++        "build/Microsoft.Extensions.ApiDescription.Server.targets",
++        "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props",
++        "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets",
++        "microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
++        "microsoft.extensions.apidescription.server.nuspec",
++        "tools/Newtonsoft.Json.dll",
++        "tools/dotnet-getdocument.deps.json",
++        "tools/dotnet-getdocument.dll",
++        "tools/dotnet-getdocument.runtimeconfig.json",
++        "tools/net461-x86/GetDocument.Insider.exe",
++        "tools/net461-x86/GetDocument.Insider.exe.config",
++        "tools/net461/GetDocument.Insider.exe",
++        "tools/net461/GetDocument.Insider.exe.config",
++        "tools/netcoreapp2.1/GetDocument.Insider.deps.json",
++        "tools/netcoreapp2.1/GetDocument.Insider.dll",
++        "tools/netcoreapp2.1/GetDocument.Insider.runtimeconfig.json"
++      ]
++    },
++    "Microsoft.OpenApi/1.2.3": {
++      "sha512": "Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
++      "type": "package",
++      "path": "microsoft.openapi/1.2.3",
++      "files": [
++        ".nupkg.metadata",
++        ".signature.p7s",
++        "lib/net46/Microsoft.OpenApi.dll",
++        "lib/net46/Microsoft.OpenApi.pdb",
++        "lib/net46/Microsoft.OpenApi.xml",
++        "lib/netstandard2.0/Microsoft.OpenApi.dll",
++        "lib/netstandard2.0/Microsoft.OpenApi.pdb",
++        "lib/netstandard2.0/Microsoft.OpenApi.xml",
++        "microsoft.openapi.1.2.3.nupkg.sha512",
++        "microsoft.openapi.nuspec"
++      ]
++    },
++    "Swashbuckle.AspNetCore/6.2.3": {
++      "sha512": "cnzQDn0Le+hInsw2SYwlOhOCPXpYi/szcvnyqZJ12v+QyrLBwAmWXBg6RIyHB18s/mLeywC+Rg2O9ndz0IUNYQ==",
++      "type": "package",
++      "path": "swashbuckle.aspnetcore/6.2.3",
++      "files": [
++        ".nupkg.metadata",
++        ".signature.p7s",
++        "build/Swashbuckle.AspNetCore.props",
++        "swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
++        "swashbuckle.aspnetcore.nuspec"
++      ]
++    },
++    "Swashbuckle.AspNetCore.Swagger/6.2.3": {
++      "sha512": "qOF7j1sL0bWm8g/qqHVPCvkO3JlVvUIB8WfC98kSh6BT5y5DAnBNctfac7XR5EZf+eD7/WasvANncTqwZYfmWQ==",
++      "type": "package",
++      "path": "swashbuckle.aspnetcore.swagger/6.2.3",
++      "files": [
++        ".nupkg.metadata",
++        ".signature.p7s",
++        "lib/net5.0/Swashbuckle.AspNetCore.Swagger.dll",
++        "lib/net5.0/Swashbuckle.AspNetCore.Swagger.pdb",
++        "lib/net5.0/Swashbuckle.AspNetCore.Swagger.xml",
++        "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll",
++        "lib/net6.0/Swashbuckle.AspNetCore.Swagger.pdb",
++        "lib/net6.0/Swashbuckle.AspNetCore.Swagger.xml",
++        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll",
++        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.pdb",
++        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.xml",
++        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll",
++        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.pdb",
++        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.xml",
++        "swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
++        "swashbuckle.aspnetcore.swagger.nuspec"
++      ]
++    },
++    "Swashbuckle.AspNetCore.SwaggerGen/6.2.3": {
++      "sha512": "+Xq7WdMCCfcXlnbLJVFNgY8ITdP2TRYIlpbt6IKzDw5FwFxdi9lBfNDtcT+/wkKwX70iBBFmXldnnd02/VO72A==",
++      "type": "package",
++      "path": "swashbuckle.aspnetcore.swaggergen/6.2.3",
++      "files": [
++        ".nupkg.metadata",
++        ".signature.p7s",
++        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
++        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
++        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
++        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
++        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
++        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
++        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
++        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
++        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
++        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
++        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
++        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
++        "swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
++        "swashbuckle.aspnetcore.swaggergen.nuspec"
++      ]
++    },
++    "Swashbuckle.AspNetCore.SwaggerUI/6.2.3": {
++      "sha512": "bCRI87uKJVb4G+KURWm8LQrL64St04dEFZcF6gIM67Zc0Sr/N47EO83ybLMYOvfNdO1DCv8xwPcrz9J/VEhQ5g==",
++      "type": "package",
++      "path": "swashbuckle.aspnetcore.swaggerui/6.2.3",
++      "files": [
++        ".nupkg.metadata",
++        ".signature.p7s",
++        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
++        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
++        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
++        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
++        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
++        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
++        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
++        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
++        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
++        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
++        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
++        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
++        "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
++        "swashbuckle.aspnetcore.swaggerui.nuspec"
++      ]
++    }
++  },
++  "projectFileDependencyGroups": {
++    "net6.0": [
++      "Swashbuckle.AspNetCore >= 6.2.3"
++    ]
++  },
++  "packageFolders": {
++    "C:\\Users\\Hobiton\\.nuget\\packages\\": {},
++    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
++  },
++  "project": {
++    "version": "1.0.0",
++    "restore": {
++      "projectUniqueName": "C:\\Users\\Hobiton\\RiderProjects\\SMS API\\SMS API\\SMS API.csproj",
++      "projectName": "SMS API",
++      "projectPath": "C:\\Users\\Hobiton\\RiderProjects\\SMS API\\SMS API\\SMS API.csproj",
++      "packagesPath": "C:\\Users\\Hobiton\\.nuget\\packages\\",
++      "outputPath": "C:\\Users\\Hobiton\\RiderProjects\\SMS API\\SMS API\\obj\\",
++      "projectStyle": "PackageReference",
++      "fallbackFolders": [
++        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
++      ],
++      "configFilePaths": [
++        "C:\\Users\\Hobiton\\AppData\\Roaming\\NuGet\\NuGet.Config",
++        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
++        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
++      ],
++      "originalTargetFrameworks": [
++        "net6.0"
++      ],
++      "sources": {
++        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
++        "https://api.nuget.org/v3/index.json": {}
++      },
++      "frameworks": {
++        "net6.0": {
++          "targetAlias": "net6.0",
++          "projectReferences": {}
++        }
++      },
++      "warningProperties": {
++        "warnAsError": [
++          "NU1605"
++        ]
++      }
++    },
++    "frameworks": {
++      "net6.0": {
++        "targetAlias": "net6.0",
++        "dependencies": {
++          "Swashbuckle.AspNetCore": {
++            "target": "Package",
++            "version": "[6.2.3, )"
++          }
++        },
++        "imports": [
++          "net461",
++          "net462",
++          "net47",
++          "net471",
++          "net472",
++          "net48"
++        ],
++        "assetTargetFallback": true,
++        "warn": true,
++        "frameworkReferences": {
++          "Microsoft.AspNetCore.App": {
++            "privateAssets": "none"
++          },
++          "Microsoft.NETCore.App": {
++            "privateAssets": "all"
++          }
++        },
++        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
++      }
++    }
++  }
++}
+\ No newline at end of file
+Index: SMS API/obj/project.packagespec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SMS API/obj/project.packagespec.json b/SMS API/obj/project.packagespec.json
+new file mode 100644
+--- /dev/null	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
++++ b/SMS API/obj/project.packagespec.json	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
+@@ -0,0 +1,1 @@
++"restore":{"projectUniqueName":"C:\\Users\\Hobiton\\RiderProjects\\SMS API\\SMS API\\SMS API.csproj","projectName":"SMS API","projectPath":"C:\\Users\\Hobiton\\RiderProjects\\SMS API\\SMS API\\SMS API.csproj","outputPath":"C:\\Users\\Hobiton\\RiderProjects\\SMS API\\SMS API\\obj\\","projectStyle":"PackageReference","fallbackFolders":["C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"],"originalTargetFrameworks":["net6.0"],"sources":{"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\":{},"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net6.0":{"targetAlias":"net6.0","projectReferences":{}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"net6.0":{"targetAlias":"net6.0","dependencies":{"Swashbuckle.AspNetCore":{"target":"Package","version":"[6.2.3, )"}},"imports":["net461","net462","net47","net471","net472","net48"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.AspNetCore.App":{"privateAssets":"none"},"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"}}
+\ No newline at end of file
+Index: SMS API/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SMS API/obj/rider.project.restore.info b/SMS API/obj/rider.project.restore.info
+new file mode 100644
+--- /dev/null	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
++++ b/SMS API/obj/rider.project.restore.info	(revision 8c2c6ee66a6aa72208f9dd1cef67d1ef28892a69)
+@@ -0,0 +1,1 @@
++16496713472555897
+\ No newline at end of file
+diff --git a/SMS API/obj/Debug/net6.0/SMS API.AssemblyInfoInputs.cache b/SMS API/obj/Debug/net6.0/SMS API.AssemblyInfoInputs.cache
+new file mode 100644
+index 0000000000000000000000000000000000000000..a6972ddd5b55564f1454a2b4f0b41ede95345f67
+GIT binary patch
+literal 42
+wc$@{n$q@h`2n4XdGxox*lmoK;w_u_$X*gwZ&8_pST}KizDDR;_QwHz#0RsvPj{pDw
+
+diff --git a/SMS API/obj/Debug/net6.0/SMS API.assets.cache b/SMS API/obj/Debug/net6.0/SMS API.assets.cache
+new file mode 100644
+index 0000000000000000000000000000000000000000..19d7651cc746aac71484763d4ddfd65bf7f3ceef
+GIT binary patch
+literal 2230
+zc$~$Q&2G~`5XTK|TGCQJ`lX(t6cGs_;glevg2cfDFriQ)Ov`028+&k8adua`Yubo+
+zK;jMH%yaM@NW29%c2m1?TMMVEL@doA_CK?~otgi1c3fw{vaDZU-cdCCqke>+e|rl*
+zKfJ2!bT(EWR-VYkZ|?V}{jYP@@iVIfw;rQC2|}WmtV<N5$fj`!3UTcBaR?F(h%cCA
+zAC=8GP|OLsZ#V1*C?Z`%K}m&afJM--x6qqo>02#zII)8$nn_N(q~o%VndIb>4q14*
+zJixNojs1QEHkMo;=raMfejSD&P&13t)CgWi??}E2s%7-vkv_{am+;IdJXdrKFUS)D
+zJui|AG)q-JMP+(=a6zh=oEK`Zon=})#dLK%LZhy3jQgHR<#3*gOsVgVMb8fvP)Qh-
+zT11|K^abHc|F%64pFo(u+&nW&=Iweuw)s@~_l=BXv#=9JRV^xwm6T(%uq{UEYE?(D
+zP~buJ1&KgbYmM#0?Pjg<XzZ8jK9Mnws-B7i!jRX)0s^!fyP!Hrvj1z^bW7x!c1g!I
+z9oKc-Fs;(DJS8)yoOx!><6N1l$y3@qljqT{PSN}+Yo7V@Sl6tR&$`iMC%7G)_4G<s
+zu&*zvmq2MWsY@NKdTp9~x})LiC+D`FJGTW}pfoDQy(F71MZI{$inqqr#QBmrC|oi1
+zi8CHGtL#V#>iv+zyojkH11Pr`AHHTjj%JmJVOeikMJP5~){DEQxNEruyj5I~+C+D}
+HJqh<;8-$_M
+
+diff --git a/SMS API/obj/Debug/net6.0/SMS API.csproj.AssemblyReference.cache b/SMS API/obj/Debug/net6.0/SMS API.csproj.AssemblyReference.cache
+new file mode 100644
+index 0000000000000000000000000000000000000000..a672c6a2b8bac75bb198db25e070fe351d4d8eb7
+GIT binary patch
+literal 141803
+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
+X`ojEze73ACFTW&Ez~&bf0@VLMShYws
+
+diff --git a/SMS API/obj/project.nuget.cache b/SMS API/obj/project.nuget.cache
+new file mode 100644
+index 0000000000000000000000000000000000000000..c59afa2614061904a1b7458da704acedc8e172fb
+GIT binary patch
+literal 1093
+zc$~G9O;5rw7=Z62{D);%P5D?rCE)-D1Tw+^QNeN;-AgH(Ygs!a82`K7#?8f`hFkl7
+z^m+QG{U{a;!`wq884t~dQN2zB9-RsxJy&jY%w)0JA8JoN*|lwNyzK<TU1=XY6KiI#
+zyF*%HWqap&n>Js#vxn;FxR9mp&E$%La_$bdqmkd8ult?H?e4{z+k-*bg5x-DHJfGz
+zlQAJ6r6#E;hAbu`z6GMXEC9z<sl|N*<C)Z^829*!DIQ`xVID+IR;%OF;nZk3{qGAz
+zWOCvO2nT&R1)k#)-=&a168dYBH1a_xjP-Re7Fml<y)hDT$=3?OK|z?zPa;=nAxR=8
+zl-?tKh#oD*7Am9iZ(2~=p`pU3NN(I(rJA|_L5~XvH3Z`dsv;{VgVMx*VDeqRlvPap
+z0FWz12#W9sFs^6B{4}ax28(o<(q!yE<4<Lm)}RocX`(AHEfcddU1FA}l9(*BKNN79
+K{+VU5@c9L-QFZqK
+
