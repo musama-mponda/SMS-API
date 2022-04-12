@@ -38,6 +38,48 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            },
+            "Flurl": {
+              "target": "Package",
+              "version": "[3.0.4, )"
+            },
+            "Flurl.Http": {
+              "target": "Package",
+              "version": "[3.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RestClient": {
+              "target": "Package",
+              "version": "[3.747.13996, )"
+            },
+            "RestClient.Client": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "RestClient.Net": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
