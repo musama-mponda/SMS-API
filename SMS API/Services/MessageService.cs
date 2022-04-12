@@ -39,18 +39,12 @@ public class MessageService : IMessageService
 
     private async Task <string> SendMessage(MessageDto messageDto)
     {
-        var data = new MessageDto()
-        {
-            Msisdn = messageDto.Msisdn,
-            OriginatorId = messageDto.Text,
-            Text = messageDto.Text
-        };
         var response = await Url
-            .PostJsonAsync(data)
+            .PostJsonAsync(messageDto)
             .ReceiveString();
 
-        var dbResponse = await UpdateMessageDb(data);
-
+        var dbResponse = await UpdateMessageDb(messageDto);
+        
         return response;
     }
 
@@ -64,5 +58,4 @@ public class MessageService : IMessageService
         return updateDb.Entity;
     }
 }
-
     
